@@ -1,0 +1,56 @@
+body{
+    background-color: lightsalmon;
+}
+.container{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 250px;
+    height: 200px;
+    /*background: teal;*/
+}
+.white-keys{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    /*background-color: aqua;*/
+}
+.white-keys kbd{
+    float: left;
+    display: inline-block;
+    background-color: white;
+    width: 55px;
+    height: 50px;
+    border: 1px solid grey;
+    text-align: center;
+    padding-top: 150px;
+}
+.black-keys{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+}
+.black-keys kbd{
+    display: inline-block;
+    background-color: black;
+    color: wheat;
+    height: 40px;
+    width: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+#keyW{
+    margin-left: 41px;
+}
+#keyE{
+    margin-left: 24px;
+}
+#keyT{
+    margin-left: 79px;
+}
+#keyY{
+    margin-left: 24px;
+}
+#keyU{
+    margin-left: 24px;
+}
